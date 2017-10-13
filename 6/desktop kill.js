@@ -155,7 +155,7 @@ var tion = document.getElementById('tion');
 						localStorage.setItem('res', JSON.stringify(res));
 						if(res.killer === 0) {
 							alert('水民胜利！');
-							location.href = '../8/game over.html';
+							location.href = '../7/game over.html';
 							return;
 						} else {
 							location.href = '../5/desktop bands.html';
