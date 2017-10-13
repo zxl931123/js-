@@ -167,7 +167,7 @@ var tion = document.getElementById('tion');
 				}
 
 				if(res.kill == res.people || res.kill == 0) {
-					location.href = '桌游-结束游戏-2.html';
+					location.href = '../7/game over.html';
 				}
 			}
 			var res = JSON.parse(localStorage.getItem("res"));
